@@ -349,7 +349,6 @@ dependencies = [
  "num-bigint 0.2.6",
  "num-integer",
  "num-traits",
- "serde",
 ]
 
 [[package]]
@@ -1536,7 +1535,7 @@ dependencies = [
  "async-stream",
  "async-trait",
  "atomic_refcell",
- "bigdecimal 0.1.2",
+ "bigdecimal 0.3.1",
  "bytes",
  "chrono",
  "cid",
