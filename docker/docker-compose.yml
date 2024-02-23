@@ -19,7 +19,7 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: "ipfs:5001"
-      ethereum: "mainnet:https://rpc.testnet.lukso.gateway.fm"
+      ethereum: "mainnet:https://rpc.lukso.gateway.fm"
       GRAPH_LOG: info
   ipfs:
     image: ipfs/kubo:v0.14.0
