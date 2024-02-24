@@ -5,11 +5,11 @@ services:
     ports:
       - "8000:8000"
     environment:
-      postgres_host: "64.227.79.177" # IP of your centralized PostgreSQL
+      postgres_host: "167.99.44.51" # IP of your centralized PostgreSQL
       postgres_user: "graph-node"
       postgres_pass: "let-me-in"
       postgres_db: "graph-node"
-      ipfs: "64.227.79.177:5001" # IP of your centralized IPFS node
+      ipfs: "167.99.44.51:5001" # IP of your centralized IPFS node
       ethereum: "mainnet:https://rpc.lukso.gateway.fm"
       GRAPH_LOG: "info"
       node_role: "query-node"
