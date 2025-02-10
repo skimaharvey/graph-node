@@ -17,7 +17,7 @@ diesel_derives = "1.4"
 chrono = "0.4.31"
 envconfig = "0.10.0"
 Inflector = "0.11.3"
-isatty = "0.1.9"
+isatty = "0.2.0"
 reqwest = { version = "0.11.18", features = ["json", "stream", "multipart"] }
 ethabi = "17.2"
 hex = "0.4.3"
